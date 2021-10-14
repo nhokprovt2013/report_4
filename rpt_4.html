@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="color: red;font-size:150%;text-decoration: underline wavy green">Startpoint: FF1 (falling-edge-triggered flip-flop clocked by Clk)</h1>
+
+<h1 style="color: blue;font-size:150%;text-decoration: underline dotted red">Endpoint: FF2 (rising-edge-triggered flip-flop clocked by Clk)</h1>
+
+<h3 style="text-decoration: underline double black">Path Group: Clk</h3>
+
+<h3 style="text-decoration: underline double black">Path Type: min</h3>
+
+<table>
+<tr id='ROW1'>
+  <th> Point     </th> 
+
+  <th> Incr</th> 
+
+  <th> Path</th> 
+
+<tr id='ROW2'>
+  <td bgcolor='olive'> clock Clk (fall edge)   </td> 
+
+  <td bgcolor='darkgray'> 2.00</td> 
+
+  <td bgcolor='Indianred'> 2.00</td> 
+
+</tr>
+<tr id='ROW3'>
+  <td bgcolor='olive'> clock network delay (propagated) </td> 
+
+  <td bgcolor='darkgray'> 0.90*</td> 
+
+  <td bgcolor='Indianred'> 2.90</td> 
+
+</tr>
+<tr id='ROW4'>
+  <td bgcolor='olive'> FF1/CLK (fdmf1a15)   </td> 
+
+  <td bgcolor='darkgray'> 0.00</td> 
+
+  <td bgcolor='Indianred'> 2.90f</td> 
+
+</tr>
+<tr id='ROW5'>
+  <td bgcolor='olive'> FF1/Q (fdef1a15)   </td> 
+
+  <td bgcolor='darkgray'> 0.40*</td> 
+
+  <td bgcolor='Indianred'> 3.30f</td> 
+
+</tr>
+<tr id='ROW6'>
+  <td bgcolor='olive'> U2/Y (buf1a27)    </td> 
+
+  <td bgcolor='darkgray'> 0.05*</td> 
+
+  <td bgcolor='Indianred'> 3.35f</td> 
+
+</tr>
+<tr id='ROW7'>
+  <td bgcolor='olive'> U3/Y (buf1a27)    </td> 
+
+  <td bgcolor='darkgray'> 0.05*</td> 
+
+  <td bgcolor='Indianred'> 3.40f</td> 
+
+</tr>
+<tr id='ROW8'>
+  <td bgcolor='olive'> FF2/D (fdef1a15)   </td> 
+
+  <td bgcolor='darkgray'> 0.01*</td> 
+
+  <td bgcolor='Indianred'> 3.41f</td> 
+
+</tr>
+<tr id='ROW9'>
+  <td bgcolor='olive'> data arrival time   </td> 
+
+  <td bgcolor='darkgray'> </td> 
+
+  <td bgcolor='Indianred'> 3.41</td> 
+
+</tr>
+<tr id='ROW10'>
+  <td bgcolor='olive'> clock Clk (rise edge)   </td> 
+
+  <td bgcolor='darkgray'> 0.00</td> 
+
+  <td bgcolor='Indianred'> 0.00</td> 
+
+</tr>
+<tr id='ROW11'>
+  <td bgcolor='olive'> clock network delay (propagated) </td> 
+
+  <td bgcolor='darkgray'> 1.00*</td> 
+
+  <td bgcolor='Indianred'> 1.00</td> 
+
+</tr>
+<tr id='ROW12'>
+  <td bgcolor='olive'> FF2/CLK (fdef1a15)   </td> 
+
+  <td bgcolor='darkgray'> </td> 
+
+  <td bgcolor='Indianred'> 1.00r</td> 
+
+</tr>
+<tr id='ROW13'>
+  <td bgcolor='olive'> library hold time   </td> 
+
+  <td bgcolor='darkgray'> 0.10*</td> 
+
+  <td bgcolor='Indianred'> 1.10</td> 
+
+</tr>
+<tr id='ROW14'>
+  <td bgcolor='olive'> data required time   </td> 
+
+  <td bgcolor='darkgray'> </td> 
+
+  <td bgcolor='Indianred'> 1.10</td> 
+
+</tr>
+<tr id='ROW15'>
+  <td bgcolor='aqua'> data required time    </td> 
+
+  <td>  </td> 
+
+  <td bgcolor='blue'> 1.10</td> 
+
+</tr>
+<tr id='ROW16'>
+  <td bgcolor='aqua'> data arrival time   </td> 
+
+  <td>  </td> 
+
+  <td bgcolor='blue'> -3.41</td> 
+
+</tr>
+<tr id='ROW17'>
+  <td bgcolor='tan'> slack (MET)    </td> 
+
+  <td>  </td> 
+
+  <td bgcolor='red'> 2.31</td> 
+
+</tr>
+<style type="text/css">
+  table   {border:ridge 5px black;}
+  table td {padding:10px; border:inset 2px #000;}
+  table tr#ROW1 {font-size:20px; padding:10px; bordercolor:blue; background-color:palevioletred; color: white}
+</style>
+</table>
+</body>
+</html>
+
